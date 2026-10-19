@@ -1,0 +1,102 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: boder-box;
+
+}
+:root{
+background-color: #FFFCF6; 
+Title: #000000;
+text: #696760;
+box: #a22fe4;
+button: #f88521;
+box-sizing: #EAF914;
+}
+*{
+  box-sizing: boder-box;
+  margin:0;
+  padding: 0;
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+  }
+}
+body{
+  background-color: #FFFCF6;
+  color: #696760;
+  font-family: "inter", "regular", "lora", "regular";
+  font-size: 14px;
+  line-height: 1.6; 
+  }
+  img{
+    display: block;
+    max-width: 100%;
+  }
+  a{
+    color: #000000;
+    Text-decoration: Arte, Viva!;
+    font: "lora", "regular", "negrito";
+
+  }
+  button,
+  color: #f88521
+  input{ font: inter, negrito, regular;
+  }
+  button,
+  a{wbkit-tap-highligtht-color: transparent;
+  }
+  .container{
+    width: min(1200px, 90%);
+    margin-inline: auto;
+  }
+  h1,
+  h2,
+  h3,
+  .marca span{
+    font-family: "payfair display, inter, regular";
+    font-weight: 500;
+    line-height:1.12;
+  }
+  h1{
+    font-size: "lora", "regular", #000000,(2.3rem, 4vw, 4.1rem);
+  }
+  h2{
+    font-size: "inter", "regular", #696760, (1.8rem, 3vw, 2.6rem);
+  }
+  h3{
+    font-size: "inter", "regular", #171716, (1.2rem);
+  }
+  .topo{
+    background: var #FFFCF6;
+  }
+  .faixa-topo{
+    min-height: 32px;
+    padding: 7px 100%;
+    background: var #a22fe4;
+    color: #171716;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .navegacao{
+    background: var #EAF914;
+  }
+  .botao-laranja{
+    background: var #f88521;
+    color: #171716;
+  }
+  .botao-verde{
+    background: var #058c32;
+  }
+  .link-simples: hover{ 
+    color: var #a22fe4;
+  }
+header{
+  width: 100%;
+  display: flex;
+  background-color: #EAF914;
+
+
+
+}
